@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 5px;
+  color: black;
+}
+img{
+  width: 30px;
+  height: 30px;
+  /* transform: rotate(-90deg); */
+}
+
+.gameover{
+  position: absolute;
+  top:30%;
+  right:30%;
+  box-shadow: -2px -3px 7px -4px #ccc;;
+  background-color: cornflowerblue;
+  z-index: 3;
+  width: 260px;
+  text-align: center;
+  margin: auto;
+  padding: 10px; 
+  display: none;
+}
+
+.pac{ 
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+/* .formLine { 
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+.pacup{
+  transform: rotate(-90deg);
+  height: 40px;
+  width: 40px;
+}
+
+.pacdown{
+  
+  transform: rotate(90deg);
+  height: 40px;
+  width: 40px;
+}
+
+.pacleft{
+  transform: rotate(180deg);
+  height: 40px;
+  width: 40px;
+}
+
+.wall{
+  width: 40px;
+  height: 40px;
+}
+.food{
+  height: 10px;
+  width: 10px;
+}
+/* table{
+  /* background-color: rgb(100, 23, 0); */
+/* } */
